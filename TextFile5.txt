@@ -38,5 +38,6 @@ Then, from github desktop we have deleted the main branch
 Now, this is the first push and also our local main branch doesn't exist in remote repository.
 
 We have adding a line from the Github Site.
+We have adding another line from the Github site because GitHub desktop is not allowing the content folder to edit from the desktop app directly.
 
 
