@@ -45,5 +45,7 @@ git branch >> this command shows all your local branches
 git branch -r >> this command shows all your remote repository branches
 git branch -a >> shows both local & remote repository branches
 
+git push origin feature/frontendsubmitbtn >> this command pushes the locally created feature branch to remote repository
+
 
 
