@@ -1,0 +1,4 @@
+2..3 | ForEach-Object { git add "TextFile$_.txt" }
+This is the command we used to add specific text files which are TextFile2.txt, TextFile3.txt
+
+Then the symbol on filenames are changed from U (untracked) to A (indexed).

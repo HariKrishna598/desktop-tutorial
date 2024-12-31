@@ -1,0 +1,40 @@
+Local Drive > LearnGitHubDesktop Folder -- Main branch <<>> you're in.
+Git Initialized
+Git add specific files (Staging)
+git commit (which files to be committed)
+
+We have used git rm --cached TextFile3.TextFile3
+which means we have removed this file from Staging directory/area/Folder
+
+git remote add origin https://github.com/HariKrishna598/desktop-tutorial.git
+We have added the cloud repository to local drive folder.
+
+git clone url
+Suppose your remote repository contains empty files.
+You have used git clone to take remote repository to local drive and then added files, made changes.
+To push the changes to git cloud repository, you can use push commands directly.
+
+Where as in your case, you have added files, made changes directly to your local drive git folder without cloning first.
+Now what you have to do for pushing the changes? - Consider this as case 2.
+
+When this case2 happens to employees?
+Answer:
+The employee has requested (read, write) access to the Git Cloud/Remote Repository from the senior dev / admin / another developer.
+Meanwhile the access is received, the employee can work on local code editors.
+
+So the employee gets code folder from another developer, start installing all the required tools in the local system and start working.
+Start testing in his/her local system until the remote repository access is received.
+
+Once you completed the code changes, tests on local system. Now you have to push changes to the remote repository.
+For that you have to add the remote repository to your local git working directory.
+
+git remote add origin url
+git status
+
+We have added another branch named as dev
+We have made dev branch as default
+Then, from github desktop we have deleted the main branch
+
+Now, this is the first push and also our local main branch doesn't exist in remote repository.
+
+

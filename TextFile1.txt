@@ -1,0 +1,10 @@
+Learning GitHub Desktop - Working directory
+
+1. We have created the folder in the Local Drive
+2. Added the text file
+3. Initialized the Git Software - Main branch is Initialized in the local drive
+
+To track untracked files, use below commands:
+git add . - To track all files
+git add TextFile1.txt - To trak specific TextFile1.txt file
+git add TextFile
