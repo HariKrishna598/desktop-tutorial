@@ -40,4 +40,10 @@ Now, this is the first push and also our local main branch doesn't exist in remo
 We have adding a line from the Github Site.
 We have adding another line from the Github site because GitHub desktop is not allowing the content folder to edit from the desktop app directly.
 
+git checkout -b feature/frontendsubmitbtn >> you're creating a new branch and automatically switched to that branch
+git branch >> this command shows all your local branches
+git branch -r >> this command shows all your remote repository branches
+git branch -a >> shows both local & remote repository branches
+
+
 
