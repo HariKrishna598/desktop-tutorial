@@ -48,4 +48,12 @@ git branch -a >> shows both local & remote repository branches
 git push origin feature/frontendsubmitbtn >> this command pushes the locally created feature branch to remote repository
 
 
+Now how to merge feature branches to main branch using commands:
+==============================================================
+git checkout main
+git pull origin main
+git merge feature/your-feature-name
+git push origin main
+
+
 
